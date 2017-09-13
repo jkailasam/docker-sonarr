@@ -1,10 +1,10 @@
-FROM lsiobase/mono
-MAINTAINER sparklyballs
+FROM jeeva420/mono
+MAINTAINER Jeeva Kailasam
 
 # set version label
 ARG BUILD_DATE
 ARG VERSION
-LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
+LABEL build_version="jeeva420 version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 
 # set environment variables
 ARG DEBIAN_FRONTEND="noninteractive"
