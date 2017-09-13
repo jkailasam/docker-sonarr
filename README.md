@@ -1,7 +1,7 @@
-# linuxserver/sonarr
+# jeeva420/sonarr
 [Sonarr](https://sonarr.tv/) (formerly NZBdrone) is a PVR for usenet and bittorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
 
-[![sonarr](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sonarr-banner.png)][appurl]
+[![sonarr](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sonarr-banner.png)][https://sonarr.tv/]
 
 ## Usage
 
@@ -15,12 +15,12 @@ docker create \
 	-v </path/to/appdata>:/config \
 	-v <path/to/tvseries>:/tv \
 	-v <path/to/downloadclient-downloads>:/downloads \
-	linuxserver/sonarr
+	jeeva420/sonarr
 ```
 
 You can choose between ,using tags, various branch versions of sonarr, no tag is required to remain on the main branch.
 
-Add one of the tags,  if required,  to the linuxserver/sonarr line of the run/create command in the following format, linuxserver/sonarr:develop
+Add one of the tags,  if required,  to the jeeva420/sonarr line of the run/create command in the following format, jeeva420/sonarr:develop
 
 #### Tags
 
